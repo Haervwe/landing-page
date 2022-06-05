@@ -14,7 +14,7 @@ body {
     background-image: url(../img/background.jpg);
     background-attachment: fixed;
     background-position: center;
-    background-size: 110% auto;
+    background-size: auto 110%;
     background-repeat: no-repeat;
 }
 
