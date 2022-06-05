@@ -11,6 +11,9 @@ body {
     width: 100%;
     overflow-x: hidden;
     flex: 1 1 auto;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -180,7 +183,7 @@ a {
     border-radius: 25px;
     padding: 10px 10px 10px 10px;
     color: white;
-    box-shadow: 5px 5px #eee;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.5);
     font-size: 18px;
 }
 .card-img {
@@ -288,4 +291,9 @@ button {
     background-color: #3882f6;
     border-radius: 8px;
     color:white;
+}
+
+.card:hover {
+    transform: scale(1.05);
+
 }
