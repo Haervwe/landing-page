@@ -13,8 +13,9 @@ body {
     flex: 1 1 auto;
     background-image: url(../img/background.jpg);
     background-attachment: fixed;
-    background-size: cover;
-
+    background-position: center;
+    background-size: 110% auto;
+    background-repeat: no-repeat;
 }
 
 .top {
